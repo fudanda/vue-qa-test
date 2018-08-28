@@ -1,6 +1,6 @@
 # 基于Quasar的后台管理练习Demo
 
-**Demo预览** [https://fudanda.github.io/vue-quasarcli-admin/dist/spa-mat](https://fudanda.github.io/vue-quasarcli-admin/dist/spa-mat)
+**Demo预览** [https://fudanda.github.io/vue-qa-test/spa-mat/dist](https://fudanda.github.io/vue-qa-test/spa-mat/dist)
 
 **参考**
 
