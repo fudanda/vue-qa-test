@@ -1,6 +1,6 @@
 export const defaultAccessMenu = [{
   path: '/test',
-  icon: 'fa-paypal fab',
+  icon: 'add',
   title: 'test',
   name: 'test',
   leftMemu: true,
