@@ -6,8 +6,7 @@ export default {
   getHot: httpGet('/api/movie/in_theaters', 'get'),
   // 即将上映
   getshown: httpGet('/apimovie/coming_soon', 'get'),
-
-  // getmytest: httpGet('http://localhost:1996/api/articles', 'get'),
+  getfuli: httpGet('https://gank.io/api/data/%E7%A6%8F%E5%88%A9/50/1', 'get')
 
   // getagroup: httpGet('http://localhost:1996/api/articles/10/1', 'get')
 

@@ -146,15 +146,15 @@ export default {
         test() {
             var self = this
             const data = self.data
-            this.$api.getGoodNew().then(res => {
+            this.$api.getfuli().then(res => {
                 console.log(res)
-                 self.tableData = res.subjects
+                 self.tableData = res.results
                     var std = self.tableData[0];
                     for (var key in std) {
                         self.visibleColumns.push(key);
                     }
                     console.log(self.tableData.length);
-                    self.visibleColumns = self.visibleColumns.reverse()//排序
+                    // self.visibleColumns = self.visibleColumns.reverse()//排序
                     for (let i = 0; i < self.visibleColumns.length; i++) {
                         var arr = {
                             name: self.visibleColumns[i],
