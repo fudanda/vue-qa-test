@@ -25,20 +25,9 @@
 <q-btn flat round dense :icon="props.inFullscreen ? 'fullscreen_exit' : 'fullscreen'" @click="props.toggleFullscreen" />
 </template>
       
- <!-- <q-tr slot="header" slot-scope="props">
-        <q-th auto-width>
-          <q-checkbox
-            v-if="props.multipleSelect"
-            v-model="props.selected"
-            indeterminate-value="some"
-          />
-        </q-th>
-        <q-th v-for="col in props.cols" :key="col.id" :props="props">
-          {{ col.label }}
-        </q-th>
-      </q-tr> -->
+ 
 
-<!--<template slot="body" slot-scope="props">
+<!-- <template slot="body" slot-scope="props">
 <q-tr :props="props">
     <q-td auto-width>
         <q-checkbox :val="props.row.id" color="primary" v-model="props.selected" />
@@ -58,7 +47,7 @@
     </q-td>
 
 </q-tr>
-</template>-->
+</template> -->
 
 
     </q-table>
@@ -157,15 +146,15 @@ export default {
         test() {
             var self = this
             const data = self.data
-            this.$api.getagroup().then(res => {
+            this.$api.getGoodNew().then(res => {
                 console.log(res)
-                 self.tableData = res
+                 self.tableData = res.subjects
                     var std = self.tableData[0];
                     for (var key in std) {
                         self.visibleColumns.push(key);
                     }
                     console.log(self.tableData.length);
-                    // self.visibleColumns = self.visibleColumns.reverse()//排序
+                    self.visibleColumns = self.visibleColumns.reverse()//排序
                     for (let i = 0; i < self.visibleColumns.length; i++) {
                         var arr = {
                             name: self.visibleColumns[i],

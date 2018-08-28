@@ -7,8 +7,8 @@ export default {
   // 即将上映
   getshown: httpGet('/apimovie/coming_soon', 'get'),
 
-  getmytest: httpGet('http://localhost:1996/api/articles','get'),
+  // getmytest: httpGet('http://localhost:1996/api/articles', 'get'),
 
-  getagroup: httpGet('http://localhost:1996/api/articles/10/1','get')
+  // getagroup: httpGet('http://localhost:1996/api/articles/10/1', 'get')
 
 }
