@@ -1,1 +1,3 @@
-# vue-quasarcli-admin
+# Quasar App
+
+> WIP

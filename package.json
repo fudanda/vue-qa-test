@@ -1,0 +1,63 @@
+{
+  "name": "newquasar",
+  "version": "1.0.0",
+  "description": "A Quasar Framework app",
+  "productName": "Quasar App",
+  "cordovaId": "org.cordova.quasar.app",
+  "author": "fudanda <314553951@qq.com>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue src",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "animejs": "^2.2.0",
+    "axios": "^0.18.0",
+    "babel-runtime": "^6.26.0",
+    "canvas-nest.js": "^2.0.2",
+    "compression": "^1.7.3",
+    "echarts": "^4.1.0",
+    "highlight.js": "^9.12.0",
+    "i": "^0.3.6",
+    "markdown-it-emoji": "^1.4.0",
+    "mavon-editor": "^2.6.15",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.0.3",
+    "three": "^0.95.0",
+    "three-js": "^79.0.0",
+    "tween": "^0.9.0",
+    "v-charts": "^1.17.8",
+    "vue-i18n": "^7.3.3",
+    "vue-svg-icon": "^1.2.9"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.0.0-beta.54",
+    "babel-eslint": "^8.2.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "eslint": "^4.18.2",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-plugin-vue": "^4.3.0",
+    "markdown-it": "^8.4.2",
+    "markdown-it-anchor": "^5.0.2",
+    "markdown-it-container": "^2.0.0",
+    "markdown-it-table-of-contents": "^0.4.0",
+    "quasar-cli": "^0.16.0",
+    "webpack-bundle-analyzer": "^2.13.1"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 10"
+  ]
+}
