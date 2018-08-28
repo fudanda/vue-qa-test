@@ -1,1 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([[18],{"kmF/":function(e,t,n){"use strict";n.r(t);var r=function(){var e=this,t=e.$createElement,n=e._self._c||t;return n("a",{attrs:{href:""}},[e._v("helloworld")])},l=[];r._withStripped=!0;var a=n("KHd+"),o={},s=Object(a["a"])(o,r,l,!1,null,null,null);t["default"]=s.exports}}]);

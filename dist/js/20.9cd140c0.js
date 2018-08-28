@@ -1,1 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([[20],{"xvc/":function(e,n,t){"use strict";t.r(n);var r=function(){var e=this,n=e.$createElement,t=e._self._c||n;return t("div")},c=[];r._withStripped=!0;var i=t("KHd+"),l={},u=Object(i["a"])(l,r,c,!1,null,null,null);n["default"]=u.exports}}]);

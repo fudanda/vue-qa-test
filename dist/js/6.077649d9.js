@@ -1,1 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([[6],{lZZM:function(n,t,e){"use strict";e.r(t);var u=function(){var n=this,t=n.$createElement,e=n._self._c||t;return e("vue-canbg")},r=[];u._withStripped=!0;var a={data:function(){return{count:50}}},c=a,l=e("KHd+"),i=Object(l["a"])(c,u,r,!1,null,null,null);t["default"]=i.exports}}]);
