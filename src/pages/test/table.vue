@@ -1,7 +1,7 @@
 <template>
 <q-page padding class="docs-table">
 
-    <q-table :data="tableData" :filter="filter" :visible-columns="visibleColumns" :separator="separator" :columns="columns" :selection="selection" :selected.sync="selected" :loading="loading" row-key="id" color="secondary">
+    <q-table :data="tableData" :filter="filter" :visible-columns="visibleColumns" :separator="separator" :columns="columns" :selection="selection" :selected.sync="selected" :loading="loading" row-key="_id" color="secondary">
 
 
         <template slot="top-left" slot-scope="props">
